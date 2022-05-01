@@ -1,0 +1,11 @@
+NAME="AveryOS"
+PRETTY_NAME="AveryOS"
+ID=avery
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://3top1a.github.io"
+DOCUMENTATION_URL="https://3top1a.github.io/"
+SUPPORT_URL="https://3top1a.github.io/"
+BUG_REPORT_URL="https://3top1a.github.io/"
+LOGO=amogos
