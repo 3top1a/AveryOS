@@ -166,9 +166,7 @@ xf86-video-vmware
 
 alsa-firmware
 alsa-lib
-pulseaudio
-pulseaudio-alsa
-pavucontrol
+pipewire
 
 networkmanager
 network-manager-applet
@@ -178,7 +176,6 @@ networkmanager-pptp
 networkmanager-vpnc
 
 htop
-firefox
 
 lightdm
 lightdm-gtk-greeter
