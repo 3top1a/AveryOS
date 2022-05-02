@@ -1,3 +1,6 @@
-[submodule "archiso/airootfs/etc/skel/"]
-	path = archiso/airootfs/etc/skel/
-	url = "https://github.com/3top1a/surf"
+[submodule "archiso/airootfs/etc/skel/surf"]
+	path = archiso/airootfs/etc/skel/surf
+	url = https://github.com/3top1a/surf
+[submodule "archiso/airootfs/etc/skel/.config"]
+	path = archiso/airootfs/etc/skel/.config
+	url = https://github.com/3top1a/dots
