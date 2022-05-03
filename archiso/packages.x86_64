@@ -1,3 +1,8 @@
+# Needed (almost)
+
+neofetch
+wget
+htop
 lib32-glibc
 glibc
 glib2
@@ -132,6 +137,7 @@ zsh
 lsd
 micro
 i3-gaps
+i3status-rust
 
 xfce4
 xfce4-goodies
@@ -171,6 +177,7 @@ xf86-video-vmware
 alsa-firmware
 alsa-lib
 pipewire
+pulseaudio
 
 networkmanager
 network-manager-applet
@@ -179,12 +186,13 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 
-htop
-
-lightdm
-lightdm-gtk-greeter
-
 ca-certificates-utils
 ca-certificates
 webkit2gtk
 gcr
+
+fakeroot
+ibus
+kdeconnect
+ttf-font-awesome
+ttf-fira-code
