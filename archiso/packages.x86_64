@@ -1,3 +1,6 @@
+lib32-glibc
+glibc
+glib2
 gcc
 xcb-util
 xorg-xauth
@@ -180,3 +183,8 @@ htop
 
 lightdm
 lightdm-gtk-greeter
+
+ca-certificates-utils
+ca-certificates
+webkit2gtk
+gcr
