@@ -1,3 +1,6 @@
+# Powersave
+powertop --auto-tune
+
 # Zsh
 export CHSH="no"
 export RUNZSH="no"
@@ -12,8 +15,9 @@ systemctl disable ModemManager
 systemctl disable bluetooth #Since I don't always need bluetooth
 
 # ly dm
-git clone --recurse-submodules https://github.com/nullgemm/ly.git
-cd ly
+cd /home/avery
+git clone --recurse-submodules https://github.com/nullgemm/ly.git /home/avery/ly
+cd /home/avery/ly
 make
 make install
 systemctl enable ly.service
@@ -28,7 +32,15 @@ make
 make install
 
 cd /home/avery
-git clone https://git.suckless.org/tabbed
-cd tabbed
+git clone https://git.suckless.org/tabbed /home/avery/tabbed
+cd /home/avery/tabbed
 make
 make install
+
+# yay
+cd /home/avery
+sudo -u avery git clone https://aur.archlinux.org/yay.git /home/avery/yay
+cd /home/avery/yay
+sudo -u avery makepkg -si
+
+
