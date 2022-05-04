@@ -36,11 +36,3 @@ git clone https://git.suckless.org/tabbed /home/avery/tabbed
 cd /home/avery/tabbed
 make
 make install
-
-# yay
-cd /home/avery
-sudo -u avery git clone https://aur.archlinux.org/yay.git /home/avery/yay
-cd /home/avery/yay
-sudo -u avery makepkg -si
-
-
