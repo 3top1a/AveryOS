@@ -7,6 +7,12 @@ export RUNZSH="no"
 export KEEP_ZSHRC="yes"
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+git clone https://github.com/agkozak/zsh-z ~/.oh-my-zsh/plugins/zsh-z
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
 cd
 cp -r .oh-my-zsh /home/avery/.oh-my-zsh
 
