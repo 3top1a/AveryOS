@@ -27,6 +27,14 @@ make
 make install
 systemctl enable ly.service
 
+# bgs
+cd /home/avery
+git clone https://github.com/Gottox/bgs.git /home/avery/bgs
+cd /home/avery/bgs
+make
+make install
+
+# Compiling submodules stuff
 cd /home/avery/st
 make
 make install
@@ -40,3 +48,5 @@ git clone https://git.suckless.org/tabbed /home/avery/tabbed
 cd /home/avery/tabbed
 make
 make install
+
+
