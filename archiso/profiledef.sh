@@ -16,12 +16,12 @@ pacman_conf="pacman.conf"
 #airootfs_image_tool_options=('-comp' 'xz' '-Xbcj' 'x86' '-b' '1M' '-Xdict-size' '1M')
 
 # Debug
-airootfs_image_type="squashfs"
-airootfs_image_tool_options=('-comp' 'zstd' '-Xcompression-level' '1')
-
-# IDK, haven't tested yet
 #airootfs_image_type="squashfs"
-#airootfs_image_tool_options=('-comp' 'zstd' '-Xcompression-level' '19')
+#airootfs_image_tool_options=('-comp' 'zstd' '-Xcompression-level' '1')
+
+# Quick and good
+airootfs_image_type="squashfs"
+airootfs_image_tool_options=('-comp' 'zstd' '-Xcompression-level' '19')
 
 file_permissions=(
   ["/etc/shadow"]="0:0:400"
